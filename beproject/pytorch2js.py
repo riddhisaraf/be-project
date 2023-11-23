@@ -19,8 +19,6 @@ n_classes = 3
 atlas_classes = 104
 scube = 64
 
-model_path = '../meshnet_gmwm_dropout_train.30_full.pth'
-#'meshnet_gmwm_dropout_train.30_full.pth'#'meshnet_gmwm_train.30_full.pth'
 
 device_name = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = torch.device(device_name)
